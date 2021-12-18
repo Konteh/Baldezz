@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarjo Baldeh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+     <!-- SweetAlert -->
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <!-- navbar  -->
+<nav class="navbar">
+    <img src="./img/logo1.png" alt="">
+    <!-- <h1 class="brand">logo</h1> -->
+    <div class="toggle-btn">
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="links-container">
+        <li class="links-item"><a href="#" class="link active">home</a></li>
+        <li class="links-item"><a href="#project-section" class="link">Work</a></li>
+        <li class="links-item"><a href="#about-section" class="link">about</a></li>
+        <li class="links-item"><a href="#contact-section" class="link">contact</a></li>
+    </ul>
+</nav>
+
+    <!-- home section -->
+<section class="home">
+    <div class="hero-content">
+        <div class="home-content">
+            <div class="text-1">Hello, Am</div>
+            <div class="text-2">Sarjo Baldeh</div>
+            <div class="text-3">And I'm a <span class="typing"></span></div>
+        </div>
+        <!-- <h3 class="hero-heading"><span class="highlight">hi, </span>i am Konteh </h3> -->
+        <!-- <p class="profession">web developer</p> -->
+        <p class="info">Hard work, consistency and determination leads you to your dreams. Living dream and doing what you like best to give the quality your clients needs requires time taking. That's what I do </p>
+        <a href="#contact-section" class="btn">contact</a>
+    </div>
+    <img src="img/project (16).jpeg" class="top-image" alt="">
+</section>
+
+
+    <!-- about section -->
+<section class="about" id="about-section">
+    <h2 class="heading">about <span class="highlight">me</span></h2>
+    <p class="sub-heading">Who is Sarjo Baldeh. </p>
+    <div class="seperator"></div>
+
+    <div class="about-me-container">
+        <div class="left-col">
+            <img src="img/project (1).jpeg" class="about-image" alt="">
+        </div>
+        <div class="right-col">
+            <p class="about-para">I am a 20 year old Gambian young woman. I started Photography at the age of 15. I fell in love with the Art of Photography from the very first day I took pictures of students at starfish. everyone was happy and that out so much joy in my heart. It told a story that impacted people’s lives. It has become a burning passion for me. Photography is a way I use to express my feelings, to share with the world the beauty it has even when times are hard.
+
+                What makes me more happy is when my pictures puts a smile on people’s faces. Photography makes me experience life at another level. I got to learn a lot from people and it is what I love doing.
+                
+                I had the courage to venture into a male dominated career because I believe in equal opportunities for both men and women. I think it is one of the ways I can add light and beauty to this world. When people see me.
+                
+                With the photographs I take and will take, I hope to make the world a better place.</p>
+            <!-- <a href="#" class="btn">download cv</a> -->
+        </div>
+    </div>
+
+    
+  <h2 class="heading">What can I do?</h2>
+      <div class="seperator"></div>
+      <div class="skill-container">
+          <div class="skill-card" style="--bg: #f06529">
+              <p class="skill">Photography</p>
+          </div>
+          <div class="skill-card" style="--bg: #379ad6">
+              <p class="skill">Video Editing</p>
+          </div>
+           <div class="skill-card" style="--bg: #cc6699">
+              <p class="skill">Script Writing</p>
+          </div>
+           
+          <!-- <div class="skill-card" style="--bg: #f7df1e">
+              <p class="skill">JavaScript</p>
+          </div>
+          <div class="skill-card large" style="--bg: #5ed9fb">
+              <p class="skill">Business card design</p>
+          </div>
+          <div class="skill-card large" style="--bg: #83cd29">
+              <p class="skill">Photography</p>
+          </div>
+          <div class="skill-card" style="--bg: #326690">
+              <p class="skill">CSS</p>
+          </div>
+          <div class="skill-card" style="--bg: #ffa000">
+              <p class="skill">Fyler design</p>
+          </div>
+          <div class="skill-card large" style="--bg: #5ed9fb">
+              <p class="skill">Much More</p>
+          </div> -->
+      </div>
+  </section>
+
+  
+  <!-- project section -->
+<section class="project" id="project-section">
+    <h2 class="heading">Work<span class="highlight">s</span></h2>
+    <p class="sub-heading">Some of my work. </p>
+    <div class="seperator"></div>
+
+    <div class="filters">
+        <button class="filter-btn active" id="all">all</button>
+        <button class="filter-btn" id="streetShooting">Street shooting</button>
+        <button class="filter-btn" id="indoorShooting">Indoor shooting</button>
+        <button class="filter-btn" id="creativeShoot">Creative shoot</button>
+        <!-- <button class="filter-btn" id="fullstack">fullStack</button> -->
+    </div>
+
+    <div class="project-container">
+        <!-- <div class="project-card">
+            <img src="img/project (1).jpg" alt="">
+            <div class="content">
+                <h1 class="project-name">project one</h1>
+                <span class="tags">#javascript</span>
+            </div>
+        </div>
+    </div> -->
+</section>
+
+
+<!-- contact form -->
+<section class="contact" id="contact-section">
+    <h2 class="heading">Contact<span class="highlight"> me</span></h2>
+    <p class="sub-heading">Let's get in touch. </p>
+    <div class="seperator"></div>
+
+    <div class="contact-form">
+        <div class="name">
+            <input type="text" class="first-name" required placeholder="first name">
+            <input type="text" class="last-name" required placeholder="last name">
+        </div>
+        <input type="email" required class="email" placeholder="email">
+        <textarea class="message" placeholder="message" required></textarea>
+        <button class="btn contact-btn">contact</button>
+    </div>
+</section>
+
+
+
+<script src="project.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
